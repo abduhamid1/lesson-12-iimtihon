@@ -1,0 +1,176 @@
+  .bg__mask__wrapper__card {
+    margin-top: 0;
+      &:nth-child(1) {
+          background-image: url(../../../images/Mask.png);
+          background-position: 143% 10%;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 445px;
+          height: 445px;
+          position: absolute;
+          right: -25%;
+          top: 160px;
+          z-index: -11;
+      }
+
+  }
+
+  .bg__mask__wrapper__card {
+      &:nth-child(2) {
+
+          background-image: url(../../../images/Mask.png);
+          background-position: 143% 10%;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 445px;
+          height: 445px;
+          position: absolute;
+          left: -25%;
+          top: 750px;
+          z-index: -11;
+      }
+
+  }
+
+  .bg__mask__wrapper__card {
+      &:nth-child(3) {
+          background-image: url(../../../images/Mask.png);
+          background-position: 143% 10%;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 445px;
+          height: 445px;
+          position: absolute;
+          right: -25%;
+          top: 1220px;
+          z-index: -11;
+      }
+
+  }
+  @media only screen and (max-width:992px) {
+      .bg__mask__wrapper__card {
+          margin-top: 0;
+
+          &:nth-child(1) {
+              background-image: url(../../../images/Mask.png);
+              background-position: 120px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 445px;
+              height: 445px;
+              position: absolute;
+              right: -25%;
+              top: 160px;
+              z-index: -11;
+          }
+
+      }
+
+      .bg__mask__wrapper__card {
+          &:nth-child(2) {
+
+              background-image: url(../../../images/Mask.png);
+              background-position: -100px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 445px;
+              height: 445px;
+              position: absolute;
+              left: -25%;
+              top: 1100px;
+              z-index: -11;
+          }
+
+      }
+
+      .bg__mask__wrapper__card {
+          &:nth-child(3) {
+              background-image: url(../../../images/Mask.png);
+              background-position: 143% 10%;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 445px;
+              height: 445px;
+              position: absolute;
+              right: -35%;
+              top: 2000px;
+              z-index: -11;
+          }
+
+      }
+  }
+    @media only screen and (max-width:576px) {
+        .bg__mask__wrapper__card {
+            margin-top: 0;
+
+            &:nth-child(1) {
+display: none;
+            }
+
+        }
+
+        .bg__mask__wrapper__card {
+            &:nth-child(2) {
+display: none;
+            }
+
+        }
+
+        .bg__mask__wrapper__card {
+            &:nth-child(3) {
+display: none;  @media only screen and (max-width:992px) {
+      .bg__mask__wrapper__card {
+          margin-top: 0;
+
+          &:nth-child(1) {
+              background-image: url(../../../images/Mask.png);
+              background-position: 120px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 445px;
+              height: 445px;
+              position: absolute;
+              right: -25%;
+              top: 160px;
+              z-index: -11;
+          }
+
+      }
+
+      .bg__mask__wrapper__card {
+          &:nth-child(2) {
+
+              background-image: url(../../../images/Mask.png);
+              background-position: -100px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 445px;
+              height: 445px;
+              position: absolute;
+              left: -25%;
+              top: 1100px;
+              z-index: -11;
+          }
+
+      }
+
+      .bg__mask__wrapper__card {
+          &:nth-child(3) {
+              background-image: url(../../../images/Mask.png);
+              background-position: 143% 10%;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 445px;
+              height: 445px;
+              position: absolute;
+              right: -35%;
+              top: 2000px;
+              z-index: -11;
+          }
+
+      }
+  }
+            }
+
+        }
+    }

@@ -1,0 +1,120 @@
+.grup__btn {
+    margin-top: 120px;
+}
+
+.btn__wrap {
+    padding: 32px 40px;
+    margin-bottom: 24px;
+    background: $wgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height, or 117% */
+
+        letter-spacing: -1.07143px;
+
+        color: #495567;
+    }
+
+    p {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+
+
+        color: #495567;
+    }
+
+    .btn__btn__gruop {
+        padding: 14px 67px;
+        background: $yellov;
+        border: 3px solid $yellov;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+        text-align: center;
+        color: #FFFFFF;
+
+        &:hover {
+            background: $wyellov;
+            color: $yellov;
+        }
+
+        &:active {
+            background: transparent;
+            color: $yellov;
+        }
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .grup__btn {
+        margin-top: 120px;
+    }
+
+    .btn__wrap {
+        padding: 32px 40px;
+        margin-bottom: 24px;
+        background: $wgrey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            /* identical to box height, or 117% */
+            text-align: center;
+
+            letter-spacing: -1.07143px;
+
+            color: #495567;
+        }
+
+        p {
+            text-align: center;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            /* identical to box height, or 167% */
+
+
+            color: #495567;
+        }
+
+        .btn__btn__gruop {
+            padding: 14px 67px;
+            background: $yellov;
+            border: 3px solid $yellov;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            /* identical to box height, or 167% */
+
+            text-align: center;
+
+            color: #FFFFFF;
+
+        }
+    }
+}

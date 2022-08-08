@@ -22,8 +22,13 @@ header {
                 /* identical to box height, or 167% */
                 color: #939CAA;
 
-                &:active {
-                    color: $yellov;
+
+                &:hover {
+                    color: $derk;
+
+                    &:active {
+                        color: $yellov;
+                    }
                 }
             }
         }
@@ -48,6 +53,15 @@ header {
                     border: 3px solid #FCB72B;
                     background: white;
                     color: $yellov;
+                }
+
+                &:hover {
+                    background: $wyellov;
+                    color: $yellov;
+
+                    &:active {
+                        background: transparent;
+                    }
                 }
             }
         }

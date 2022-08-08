@@ -1,0 +1,78 @@
+@media only screen and (max-width:576px) {
+    .btns {
+        display: block;
+    }
+
+    .maps {
+        margin-top: 20px;
+
+        iframe {
+            display: block;
+            margin: auto;
+            max-width: 311px;
+            height: 153px;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .locations__info {
+        margin-top: 40px;
+
+        .loca__text {
+            align-items: center;
+
+            h2 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 32px;
+                /* or 100% */
+                display: block;
+                text-align: center;
+                letter-spacing: -1.42857px;
+
+                color: #495567;
+            }
+
+            p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+
+                text-align: center;
+
+                color: #939CAA;
+                margin-top: 32px;
+            }
+
+            .btn {
+                display: block;
+                margin: 20px auto;
+                float: inherit;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+
+                text-align: center;
+                background: $yellov;
+                padding: 14px 44px;
+                color: #FFFFFF;
+                border: 3px solid $yellov;
+
+                &:active {
+                    background: transparent;
+                    color: $yellov;
+                }
+            }
+        }
+    }
+}

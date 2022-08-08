@@ -1,0 +1,85 @@
+.our {
+    margin-top: 78px;
+
+
+    h2 {
+        display: block;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        /* identical to box height, or 100% */
+
+        text-align: center;
+        letter-spacing: -2.14286px;
+
+        color: #495567;
+    }
+
+    .our__card {
+        padding-top: 78px;
+
+        .img__bottom {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background: $yellov;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            transform: translateY(-50px);
+
+            h3 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+
+                text-align: center;
+                letter-spacing: -1.07143px;
+
+                color: #495567;
+            }
+        }
+
+        .our__texts {
+            text-align: center;
+
+            h3 {
+                // margin-top: 32px;
+                margin-bottom: 27px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+
+                text-align: center;
+                letter-spacing: -1.07143px;
+
+                color: #495567;
+
+            }
+
+            p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+
+                text-align: center;
+
+                color: #939CAA;
+                width: 350px;
+                margin: auto;
+            }
+        }
+    }
+}

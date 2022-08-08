@@ -27,8 +27,12 @@ footer {
 
                     color: #939CAA;
 
-                    &:active {
+            
+                    &:hover{
+                        color: $snow;        &:active {
                         color: $yellov;
+
+                    }
                     }
                 }
             }
@@ -48,8 +52,12 @@ footer {
             i {
                 color: $yellov;
 
-                &:active {
-                    color: white;
+            
+                &:hover{
+                    color: $snow;    
+                    &:active {
+                    color: $yellov;
+                }
                 }
             }
         }
@@ -95,6 +103,7 @@ footer {
 
 
                          color: #939CAA;
+                         
 
                      }
                  }

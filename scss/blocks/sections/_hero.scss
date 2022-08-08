@@ -55,8 +55,18 @@
 
                 color: #FFFFFF;
                 border: 3px solid $yellov;
-                &:active{
+
+                &:active {
                     background: transparent;
+                }
+
+                &:hover {
+                    background: $wyellov;
+                    color: $yellov;
+
+                    &:active {
+                        background: transparent;
+                    }
                 }
             }
         }
@@ -164,6 +174,7 @@
 
             &__imgs {
                 img {
+
                     position: absolute;
 
                     &:nth-child(1) {
@@ -251,35 +262,152 @@
                     text-align: center;
                     color: #FFFFFF;
                     border: 3px solid $yellov;
-                    &:active{
+
+                    &:active {
                         background: transparent;
                         color: $yellov;
                     }
+
+
+
                 }
 
-              
-            }
+                &__left {
+                    margin-left: -0;
+                    margin-top: 24px;
+                }
 
-            &__left {
-                margin-left: -0;
-                margin-top: 24px;
-            }
+                &__imgs {
+                    img {
+                        position: absolute;
 
-            &__imgs {
-                img {
-                    position: absolute;
+                        &:nth-child(1) {
+                            left: -1000px;
+                            margin-left: -111px;
+                        }
 
-                    &:nth-child(1) {
-                        left: -1000px;
-                        margin-left: -111px;
-                    }
-
-                    &:nth-child(2) {
-                        top: 500px;
-                        left: -300px;
+                        &:nth-child(2) {
+                            top: 500px;
+                            left: -300px;
+                        }
                     }
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .hero {
+        margin-top: 96px;
+        height: 667px;
+        max-width: 100%;
+        position: relative;
+        background-image: url(../../../images/hero__top__sm.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 115px;
+
+        .hero__text {
+            margin: auto;
+
+            h2 {
+
+                /* or 100% */
+                width: 311px;
+                display: block;
+                margin: auto;
+                font-family: $mons;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 40px;
+                /* or 100% */
+
+                text-align: center;
+                letter-spacing: -2.5px;
+
+                color: #FFFFFF;
+            }
+
+            p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+                width: 311px;
+                margin: auto;
+
+
+                text-align: center;
+
+                color: #FFFFFF;
+
+            }
+
+            .hero__link {
+                margin-top: 40px;
+
+                .hero__links {
+                    width: 200px;
+                    display: block;
+                    margin: auto;
+                    padding: 14px 39px;
+                    background: $yellov;
+                    text-decoration: none;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* identical to box height, or 167% */
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: 3px solid $yellov;
+
+                    &:active {
+                        background: transparent;
+                        color: $yellov;
+                    }
+
+
+
+                }
+
+                &__left {
+                    margin-left: -0;
+                    margin-top: 24px;
+                }
+
+                &__imgs {
+                    display: none;
+
+                    img {
+                        position: absolute;
+                        display: none;
+
+                        &:nth-child(1) {
+                            left: -1000px;
+                            margin-left: -111px;
+                        }
+
+                        &:nth-child(2) {
+                            top: 500px;
+                            left: -300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero .hero__text__imgs img {
+        display: none;
+        position: absolute;
     }
 }

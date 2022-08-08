@@ -1,7 +1,9 @@
 .info__wrapper {
     margin-top: 140px;
 
+
     .info__card {
+
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -56,16 +58,27 @@
                 background: white;
                 color: $yellov;
             }
+
+            &:hover {
+                background: $wyellov;
+                color: $yellov;
+
+                &:active {
+                    background: transparent;
+                }
+            }
         }
 
         .info__imgs {
             .posishns {
                 bottom: -10%;
+                left: -60px;
             }
         }
     }
 
     .info__card {
+
         &:nth-child(2) {
             margin-top: 100px;
 
@@ -371,6 +384,13 @@
                 }
             }
 
+            .info__imgs {
+                .posishns {
+                    bottom: -34%;
+                    left: 13px;
+                }
+            }
+
             img {
                 width: 311px;
                 height: 311px;
@@ -407,8 +427,8 @@
 
                 .info__imgs {
                     .card__three {
-    top: -12%;
-    right: -58%;
+                        top: -12%;
+                        right: -58%;
                     }
                 }
             }
@@ -417,3 +437,5 @@
 
 
 }
+
+@import "./bg__mask";
