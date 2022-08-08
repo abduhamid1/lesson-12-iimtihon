@@ -1,0 +1,130 @@
+footer {
+    background: #333A44;
+    padding: 35px 0;
+
+    .logo__lor__link {
+        display: flex;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            align-items: center;
+            margin-left: 58px;
+            margin-bottom: 0;
+
+            li {
+                margin-right: 32px;
+
+                a {
+                    text-decoration: none;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* identical to box height, or 167% */
+
+
+                    color: #939CAA;
+
+                    &:active {
+                        color: $yellov;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__webs {
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+        align-items: center;
+        float: right;
+
+        a {
+            text-decoration: none;
+
+            i {
+                color: $yellov;
+
+                &:active {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media   (max-width:992px) and  (min-width:768px   ) {
+
+ 
+}
+@media only screen and (max-width:768px) {
+     footer {
+         background: #333A44;
+         padding: 35px 0;
+
+         .logo__lor__link {
+             margin-top: 37px;
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+
+             ul {
+                 margin-top: 40px;
+                 list-style: none;
+                 align-items: center;
+                 margin-left: 0;
+                 display: flex;
+                 flex-direction: column;
+                 margin-bottom: 0;
+
+                 li {
+                     margin-right: 32px;
+                     margin-bottom: 16px;
+
+                     a {
+                         text-decoration: none;
+                         font-family: 'Space Mono';
+                         font-style: normal;
+                         font-weight: 700;
+                         font-size: 15px;
+                         line-height: 25px;
+                         /* identical to box height, or 167% */
+
+
+                         color: #939CAA;
+
+                     }
+                 }
+             }
+         }
+
+         .small__csnter {
+             display: flex;
+             justify-content: center;
+         }
+
+         .footer__webs {
+             margin-top: 80px;
+             display: flex;
+             width: 120px;
+             justify-content: space-between;
+             align-items: center;
+             float: none;
+
+             a {
+                 text-decoration: none;
+
+                 i {
+                     color: $yellov;
+
+                     &:active {
+                         color: white;
+                     }
+                 }
+             }
+         }
+     }  
+}

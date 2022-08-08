@@ -1,0 +1,192 @@
+header {
+    font-family: $mons;
+    background: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 111;
+
+    .container-fluid {
+        padding: 18px 0;
+
+        .navbar-nav {
+            margin-top: 5px;
+            margin-left: 58px;
+            align-items: center;
+
+            .nav-link {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+                color: #939CAA;
+
+                &:active {
+                    color: $yellov;
+                }
+            }
+        }
+
+        .header__link {
+            a {
+                padding: 14px 39px;
+                background: $yellov;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+                border: 3px solid $yellov;
+
+                text-align: center;
+                text-decoration: none;
+                color: #FFFFFF;
+
+                &:active {
+                    border: 3px solid #FCB72B;
+                    background: white;
+                    color: $yellov;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container-fluid {
+        padding: 18px 0;
+
+        .navbar-nav {
+            margin-top: 5px;
+            margin-left: 58px;
+            align-items: center;
+
+            .nav-link {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 25px;
+                /* identical to box height, or 167% */
+                color: #939CAA;
+
+                &:active {
+                    color: $yellov;
+                }
+            }
+        }
+
+        .header__link {
+            a {
+                width: 218px;
+                display: block;
+                margin: auto;
+                position: relative;
+                left: 35px;
+
+            }
+        }
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    header {
+        button {
+            display: none;
+        }
+
+        .collapse:not(.show) {
+            display: block;
+        }
+
+        .navbar-nav {
+            display: flex !important;
+            flex-direction: row !important;
+            position: relative;
+
+            margin-left: 0px !important;
+        }
+
+        .nav-item {
+            margin-left: 20px !important;
+        }
+
+        .header__link {
+            position: absolute;
+            right: 5%;
+            top: 18px;
+        }
+
+        .navbar>.container,
+        .navbar>.container-fluid,
+        .navbar>.container-lg,
+        .navbar>.container-md,
+        .navbar>.container-sm,
+        .navbar>.container-xl,
+        .navbar>.container-xxl {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar-collapse {
+            flex-basis: 100%;
+            /* flex-grow: 1; */
+            align-items: center;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width:768px) and (min-width:576px) {
+    .header__link {
+        a {
+            width: 190px !important;
+            position: absolute;
+            right: 24% !important;
+
+        }
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .container-fluid {
+        padding: 18px 0;
+
+        .navbar-toggler {
+            top: 33px;
+            position: absolute;
+            left: -7%;
+            color: #fcb72b;
+            // position: relative;
+            // left: -90%;
+            // color: #FCB72B;
+
+            .navbar-toggler-icon {
+                color: #FCB72B;
+            }
+        }
+
+        .navbar-brand {
+            position: relative;
+            left: 37%;
+            right: auto;
+        }
+
+        .navbar-nav {
+            position: relative;
+            left: -20px;
+            margin-left: -20px;
+            margin-top: 20px;
+        }
+
+        .header__link {
+            position: relative;
+            top: 10px;
+            left: -20px;
+        }
+    }
+}

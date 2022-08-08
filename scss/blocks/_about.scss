@@ -1,0 +1,498 @@
+.our {
+    margin-top: 78px;
+
+
+    h2 {
+        display: block;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        /* identical to box height, or 100% */
+
+        text-align: center;
+        letter-spacing: -2.14286px;
+
+        color: #495567;
+    }
+
+    .our__card {
+        padding-top: 78px;
+
+        .img__bottom {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background: $yellov;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            transform: translateY(-50px);
+
+            h3 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+
+                text-align: center;
+                letter-spacing: -1.07143px;
+
+                color: #495567;
+            }
+        }
+
+        .our__texts {
+            text-align: center;
+
+            h3 {
+                // margin-top: 32px;
+                margin-bottom: 27px;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+
+                text-align: center;
+                letter-spacing: -1.07143px;
+
+                color: #495567;
+
+            }
+
+            p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+
+                text-align: center;
+
+                color: #939CAA;
+                width: 350px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.acartion {
+    margin-top: 120px;
+
+    .acartion__top {
+
+        h3 {
+            display: block;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            /* identical to box height, or 100% */
+
+            text-align: center;
+            letter-spacing: -2.14286px;
+            margin: auto;
+
+        }
+
+    }
+
+    .acartions__wrapper {
+        display: flex;
+        margin-top: 64px;
+
+        .accordion-item {
+            h2 {
+                button {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+
+                    letter-spacing: -1.07143px;
+
+                    color: #495567 !important;
+                }
+
+            }
+
+        }
+
+        .accordion-body {
+            padding-top: 24px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 32px;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            /* or 167% */
+
+
+            color: #495567 !important;
+        }
+
+        .acartion__title {
+            h2 {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                /* identical to box height, or 120% */
+
+                letter-spacing: -1.78571px;
+
+                color: #495567;
+            }
+        }
+
+        .acartions__menu {
+            max-width: 730px;
+            width: 100%;
+            margin-left: 30px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+    .our {
+        margin-top: 78px;
+
+
+        h2 {
+            display: block;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            /* identical to box height, or 100% */
+
+            text-align: center;
+            letter-spacing: -2.14286px;
+
+            color: #495567;
+        }
+
+        .our__card {
+            padding-top: 78px;
+            margin: auto;
+
+            .img__bottom {
+                width: 96px;
+                height: 96px;
+                border-radius: 50%;
+                background: $yellov;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                transform: translateY(-50px);
+
+                h3 {
+
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+                    margin: auto;
+                    display: block;
+                    text-align: center;
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+                }
+            }
+
+            .our__texts {
+                margin: auto;
+                text-align: center;
+                width: 100%;
+
+                // margin: auto;
+                h3 {
+                    // margin-top: 32px;
+                    width: 457px;
+                    // margin-bottom: 27px;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    margin: auto;
+                    font-size: 27px 48px;
+                    line-height: 48px;
+                    /* or 100% */
+
+                    text-align: center;
+                    letter-spacing: -2.14286px;
+
+                    color: #495567;
+
+                }
+
+                p {
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+                    text-align: center;
+
+                    color: #939CAA;
+
+                    width: 573px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    .acartion {
+        margin-top: 120px;
+
+        .acartion__top {
+
+            h3 {
+                display: block;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                /* identical to box height, or 100% */
+
+                text-align: center;
+                letter-spacing: -2.14286px;
+                margin: auto;
+
+            }
+
+        }
+
+        .acartions__wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 64px;
+
+            .acartion__title {
+                h2 {
+                    margin-bottom: 32px;
+                    display: block;
+                    text-align: center;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 48px;
+                    /* identical to box height, or 120% */
+
+                    letter-spacing: -1.78571px;
+
+                    color: #495567;
+                }
+            }
+
+            .acartions__menu {
+                max-width: 698px;
+
+                margin-left: auto;
+                margin-right: auto;
+
+                .accordion-item {
+                    h2 {
+                        button {
+                            font-family: 'Space Mono';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 28px;
+                            /* identical to box height, or 117% */
+
+                            letter-spacing: -1.07143px;
+
+                            color: #495567 !important;
+                        }
+
+                    }
+                }
+
+
+                .accordion-body {
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+
+                    color: #495567;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .our {
+        margin-top: 78px;
+
+
+        h2 {
+            display: block;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            /* identical to box height, or 100% */
+
+            text-align: center;
+            letter-spacing: -2.14286px;
+
+            color: #495567;
+        }
+
+        .our__card {
+            padding-top: 78px;
+
+            .img__bottom {
+                width: 96px;
+                height: 96px;
+                border-radius: 50%;
+                background: $yellov;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                transform: translateY(-50px);
+
+                h3 {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+
+                    text-align: center;
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+                }
+            }
+
+            .our__texts {
+                text-align: center;
+
+                h3 {
+
+
+                    text-align: center;
+                    // margin-top: 32px;
+                    width: 311px;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    margin: 27px auto;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+
+                    text-align: center;
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+
+                }
+
+                p {
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+                    text-align: center;
+
+                    color: #939CAA;
+                    width: 311px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    .acartion {
+        margin-top: 120px;
+
+        .acartion__top {
+
+            h3 {
+                display: block;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                /* identical to box height, or 100% */
+
+                text-align: center;
+                letter-spacing: -2.14286px;
+                margin: auto;
+
+            }
+
+        }
+
+        .acartions__wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 64px;
+
+            .acartion__title {
+                h2 {
+                    margin-bottom: 32px;
+                    display: block;
+                    text-align: center;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 48px;
+                    /* identical to box height, or 120% */
+
+                    letter-spacing: -1.78571px;
+
+                    color: #495567;
+                }
+            }
+
+            .acartions__menu {
+                width: 311px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}

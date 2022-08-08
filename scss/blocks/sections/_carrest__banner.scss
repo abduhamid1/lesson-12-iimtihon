@@ -1,0 +1,46 @@
+.main__banners {
+    height: 215px;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    background-image: url(../../../images/crees__bg__img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        /* identical to box height, or 100% */
+
+        letter-spacing: -2.5px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+    }
+}
+
+
+
+@media only screen and (max-width:576px) {
+    .main__banners {
+        height: 165px;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center
+    }
+}
+
+@import "./main__about__banner";
+@import "./carrest__banner";
+@import "./location__banner";

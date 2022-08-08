@@ -1,0 +1,256 @@
+.pochta {
+    margin-top: 100px;
+
+    .pochta__texts {
+        .pochta__texts__text {
+            margin-top: 40px;
+
+            h2 {
+                font-family: $mons;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */
+
+                letter-spacing: -1.07143px;
+
+                color: #495567;
+                width: 350px;
+            }
+
+            p {
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */
+                margin-top: 27px;
+                width: 350px;
+                color: #939CAA;
+                padding-right: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .pochta {
+        margin-top: 100px;
+
+
+        .pochta__texts {
+            width: 650px;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+
+            .pochta__texts__text {
+
+                h2 {
+                    font-family: $mons;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+                    width: 398px;
+                }
+
+                p {
+
+                    /* or 167% */
+                    margin-top: 27px;
+                    width: 398px;
+                    color: #939CAA;
+                    // padding-right: 50px;
+
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+
+                    color: #939CAA;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .pochta {
+        margin-top: 100px;
+
+
+        .pochta__texts {
+            width: 650px;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+
+            .pochta__texts__text {
+
+                h2 {
+                    font-family: $mons;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+                    width: 398px;
+                }
+
+                p {
+
+                    /* or 167% */
+                    margin-top: 27px;
+                    width: 398px;
+                    color: #939CAA;
+                    // padding-right: 50px;
+
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+
+                    color: #939CAA;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .pochta {
+        margin-top: 118px;
+
+
+        .pochta__texts {
+            width: 311px;
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+
+            img {
+                width: 56px;
+                height: 56px;
+                display: block;
+                margin: auto;
+            }
+
+            .pochta__texts__text {
+                margin-left: -45px;
+
+                h2 {
+                    font-family: $mons;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+                    width: 311px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    /* or 167% */
+                    margin-top: 27px;
+                    width: 331px;
+                    color: #939CAA;
+                    // padding-right: 50px;
+
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+
+                    color: #939CAA;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .pochta {
+        margin-top: 118px;
+
+
+        .pochta__texts {
+            width: 311px;
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+
+            img {
+                width: 56px;
+                height: 56px;
+                display: block;
+                position: relative;
+                left: -5px;
+                margin: auto;
+            }
+
+            .pochta__texts__text {
+                margin-left: -38px;
+
+                h2 {
+                    font-family: $mons;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+
+                    letter-spacing: -1.07143px;
+
+                    color: #495567;
+                    width: 311px;
+                    text-align: center;
+                }
+
+                p {
+                    text-align: center;
+                    /* or 167% */
+                    margin-top: 27px;
+                    width: 331px;
+                    color: #939CAA;
+                    // padding-right: 50px;
+
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    /* or 167% */
+
+
+                    color: #939CAA;
+                }
+            }
+        }
+    }
+}
